@@ -317,3 +317,610 @@
 [W 21:55:04.690 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 36.50ms referer=http://0.0.0.0:8080/notebooks/scikit-learn/scikit-learn-gmm.ipynb
 [I 21:55:06.238 NotebookApp] Kernel started: 5bea5092-eff6-411a-80f6-de8e3d89f3e7
 [I 21:55:36.938 NotebookApp] Saving file at /scikit-learn/scikit-learn-gmm.ipynb
+[I 22:13:46.990 NotebookApp] 302 GET / (192.168.1.2) 0.80ms
+[I 22:43:38.447 NotebookApp] Creating new directory in 
+[I 22:43:55.090 NotebookApp] EOF on FD 17; stopping reading
+[I 22:43:55.091 NotebookApp] Terminal 1 closed
+[I 22:43:58.206 NotebookApp] Kernel shutdown: 5bea5092-eff6-411a-80f6-de8e3d89f3e7
+[W 22:44:15.920 NotebookApp] delete /Untitled Folder
+[W 22:44:15.934 NotebookApp] delete /Untitled Folder 1
+[I 22:44:58.258 NotebookApp] New terminal with automatic name: 1
+[W 22:45:41.305 NotebookApp] Notebook spark/spark.ipynb is not trusted
+[W 22:45:41.505 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (192.168.1.2) 10.48ms referer=http://192.168.1.2:8080/notebooks/spark/spark.ipynb
+[I 22:45:49.727 NotebookApp] Kernel started: 99a6cee6-ef98-431f-93c1-2cd7aad50c63
+[I 09:02:06.533 NotebookApp] 302 GET / (127.0.0.1) 1.77ms
+[I 09:02:08.619 NotebookApp] 302 GET / (127.0.0.1) 0.72ms
+[I 09:02:55.681 NotebookApp] 302 GET / (127.0.0.1) 0.76ms
+[I 09:04:29.035 NotebookApp] 302 GET / (127.0.0.1) 0.87ms
+[I 09:04:55.582 NotebookApp] New terminal with automatic name: 2
+[W 09:05:17.062 NotebookApp] Notebook scipy/hypothesis.ipynb is not trusted
+[W 09:05:17.117 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 7.17ms referer=http://127.0.0.1:8080/notebooks/scipy/hypothesis.ipynb
+[I 09:05:17.885 NotebookApp] Kernel started: 06046df2-af89-4609-8f07-f01ea5a0f551
+[I 09:17:50.990 NotebookApp] Creating new file in /scipy
+[I 09:18:27.426 NotebookApp] Copying scipy/effect_size.ipynb to /scipy
+[W 09:18:27.540 NotebookApp] Notebook scipy/effect_size.ipynb is not trusted
+[W 09:18:27.616 NotebookApp] Saving untrusted notebook scipy/effect_size-Copy1.ipynb
+[W 09:18:41.527 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 3.82ms referer=http://127.0.0.1:8080/notebooks/scipy/bayes.ipynb
+[W 09:18:41.729 NotebookApp] Notebook scipy/bayes.ipynb is not trusted
+[I 09:18:42.777 NotebookApp] Kernel started: 29c4f093-e9a1-4d6d-a275-7adc36fdd331
+[I 09:20:43.628 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:36:44.572 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:38:15.170 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:38:37.004 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:40:44.691 NotebookApp] Saving file at /scipy/bayes.ipynb
+[W 09:42:03.717 NotebookApp] 404 GET /static/components/MathJax/jax/element/mml/optable/GreekAndCoptic.js?rev=2.5.3 (127.0.0.1) 5.49ms referer=http://127.0.0.1:8080/notebooks/scipy/bayes.ipynb
+[I 09:42:44.544 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:44:44.641 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:46:44.874 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:48:44.701 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 09:49:04.510 NotebookApp] Saving file at /scipy/bayes.ipynb
+[W 09:49:10.225 NotebookApp] Notebook scipy/sampling.ipynb is not trusted
+[W 09:49:10.324 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 3.22ms referer=http://127.0.0.1:8080/notebooks/scipy/sampling.ipynb
+[I 09:49:11.547 NotebookApp] Kernel started: 8ee98f05-b69c-4d35-8472-1b4624af2981
+[I 09:51:12.286 NotebookApp] Saving file at /scipy/sampling.ipynb
+[W 09:51:12.290 NotebookApp] Saving untrusted notebook scipy/sampling.ipynb
+[I 09:53:12.263 NotebookApp] Saving file at /scipy/sampling.ipynb
+[W 09:53:12.266 NotebookApp] Saving untrusted notebook scipy/sampling.ipynb
+[I 09:55:12.260 NotebookApp] Saving file at /scipy/sampling.ipynb
+[W 09:55:12.263 NotebookApp] Saving untrusted notebook scipy/sampling.ipynb
+[I 09:57:39.084 NotebookApp] Saving file at /scipy/sampling.ipynb
+[W 09:57:39.087 NotebookApp] Saving untrusted notebook scipy/sampling.ipynb
+[I 09:59:13.157 NotebookApp] Saving file at /scipy/sampling.ipynb
+[W 09:59:13.160 NotebookApp] Saving untrusted notebook scipy/sampling.ipynb
+[W 10:40:36.541 NotebookApp] 404 GET /favicon.ico (127.0.0.1) 3.59ms referer=None
+[I 10:40:37.100 NotebookApp] 302 GET / (127.0.0.1) 0.85ms
+[I 10:40:44.609 NotebookApp] New terminal with automatic name: 3
+[C 10:53:48.894 NotebookApp] Bad config encountered during initialization:
+[C 10:53:48.894 NotebookApp] Unrecognized flag: '--password'
+The Jupyter HTML Notebook.
+
+This launches a Tornado based HTML Notebook Server that serves up an
+HTML5/Javascript Notebook client.
+
+Subcommands
+-----------
+
+Subcommands are launched as `jupyter-notebook cmd [args]`. For information on
+using subcommand 'cmd', do: `jupyter-notebook cmd -h`.
+
+list
+    List currently running notebook servers in this profile.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--generate-config
+    generate default config file
+--no-script
+    DEPRECATED, IGNORED
+--pylab
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+--no-mathjax
+    Disable MathJax
+    
+    MathJax is the javascript library IPython uses to render math/LaTeX. It is
+    very large, so you may want to disable it if you have a slow internet
+    connection, or for offline use of the notebook.
+    
+    When disabled, equations etc. will appear as their untransformed TeX source.
+-y
+    Answer yes to any questions instead of prompting.
+--no-browser
+    Don't open the notebook in a browser after startup.
+--script
+    DEPRECATED, IGNORED
+--port-retries=<Int> (NotebookApp.port_retries)
+    Default: 50
+    The number of additional ports to try if the specified port is not
+    available.
+--transport=<CaselessStrEnum> (KernelManager.transport)
+    Default: 'tcp'
+    Choices: ['tcp', 'ipc']
+--pylab=<Unicode> (NotebookApp.pylab)
+    Default: 'disabled'
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--notebook-dir=<Unicode> (NotebookApp.notebook_dir)
+    Default: ''
+    The directory to use for notebooks and kernels.
+--keyfile=<Unicode> (NotebookApp.keyfile)
+    Default: ''
+    The full path to a private key file for usage with SSL/TLS.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--certfile=<Unicode> (NotebookApp.certfile)
+    Default: ''
+    The full path to an SSL/TLS certificate file.
+--ip=<Unicode> (NotebookApp.ip)
+    Default: 'localhost'
+    The IP address the notebook server will listen on.
+--port=<Int> (NotebookApp.port)
+    Default: 8888
+    The port the notebook server will listen on.
+--browser=<Unicode> (NotebookApp.browser)
+    Default: ''
+    Specify what command to use to invoke a web browser when opening the
+    notebook. If not specified, the default browser will be determined by the
+    `webbrowser` standard library module, which allows setting of the BROWSER
+    environment variable to override it.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    ipython notebook                       # start the notebook
+    ipython notebook --profile=sympy       # use the sympy profile
+    ipython notebook --certfile=mycert.pem # use SSL/TLS certificate
+
+[C 10:54:06.572 NotebookApp] Bad config encountered during initialization:
+[C 10:54:06.573 NotebookApp] Unrecognized flag: '--password'
+The Jupyter HTML Notebook.
+
+This launches a Tornado based HTML Notebook Server that serves up an
+HTML5/Javascript Notebook client.
+
+Subcommands
+-----------
+
+Subcommands are launched as `jupyter-notebook cmd [args]`. For information on
+using subcommand 'cmd', do: `jupyter-notebook cmd -h`.
+
+list
+    List currently running notebook servers in this profile.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--generate-config
+    generate default config file
+--script
+    DEPRECATED, IGNORED
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+-y
+    Answer yes to any questions instead of prompting.
+--no-script
+    DEPRECATED, IGNORED
+--no-mathjax
+    Disable MathJax
+    
+    MathJax is the javascript library IPython uses to render math/LaTeX. It is
+    very large, so you may want to disable it if you have a slow internet
+    connection, or for offline use of the notebook.
+    
+    When disabled, equations etc. will appear as their untransformed TeX source.
+--pylab
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--no-browser
+    Don't open the notebook in a browser after startup.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--transport=<CaselessStrEnum> (KernelManager.transport)
+    Default: 'tcp'
+    Choices: ['tcp', 'ipc']
+--ip=<Unicode> (NotebookApp.ip)
+    Default: 'localhost'
+    The IP address the notebook server will listen on.
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--notebook-dir=<Unicode> (NotebookApp.notebook_dir)
+    Default: ''
+    The directory to use for notebooks and kernels.
+--certfile=<Unicode> (NotebookApp.certfile)
+    Default: ''
+    The full path to an SSL/TLS certificate file.
+--port-retries=<Int> (NotebookApp.port_retries)
+    Default: 50
+    The number of additional ports to try if the specified port is not
+    available.
+--pylab=<Unicode> (NotebookApp.pylab)
+    Default: 'disabled'
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--keyfile=<Unicode> (NotebookApp.keyfile)
+    Default: ''
+    The full path to a private key file for usage with SSL/TLS.
+--port=<Int> (NotebookApp.port)
+    Default: 8888
+    The port the notebook server will listen on.
+--browser=<Unicode> (NotebookApp.browser)
+    Default: ''
+    Specify what command to use to invoke a web browser when opening the
+    notebook. If not specified, the default browser will be determined by the
+    `webbrowser` standard library module, which allows setting of the BROWSER
+    environment variable to override it.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    ipython notebook                       # start the notebook
+    ipython notebook --profile=sympy       # use the sympy profile
+    ipython notebook --certfile=mycert.pem # use SSL/TLS certificate
+
+[C 10:55:01.123 NotebookApp] Bad config encountered during initialization:
+[C 10:55:01.123 NotebookApp] Unrecognized flag: '--password'
+The Jupyter HTML Notebook.
+
+This launches a Tornado based HTML Notebook Server that serves up an
+HTML5/Javascript Notebook client.
+
+Subcommands
+-----------
+
+Subcommands are launched as `jupyter-notebook cmd [args]`. For information on
+using subcommand 'cmd', do: `jupyter-notebook cmd -h`.
+
+list
+    List currently running notebook servers in this profile.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--pylab
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+-y
+    Answer yes to any questions instead of prompting.
+--generate-config
+    generate default config file
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+--no-mathjax
+    Disable MathJax
+    
+    MathJax is the javascript library IPython uses to render math/LaTeX. It is
+    very large, so you may want to disable it if you have a slow internet
+    connection, or for offline use of the notebook.
+    
+    When disabled, equations etc. will appear as their untransformed TeX source.
+--no-script
+    DEPRECATED, IGNORED
+--script
+    DEPRECATED, IGNORED
+--no-browser
+    Don't open the notebook in a browser after startup.
+--pylab=<Unicode> (NotebookApp.pylab)
+    Default: 'disabled'
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--port-retries=<Int> (NotebookApp.port_retries)
+    Default: 50
+    The number of additional ports to try if the specified port is not
+    available.
+--browser=<Unicode> (NotebookApp.browser)
+    Default: ''
+    Specify what command to use to invoke a web browser when opening the
+    notebook. If not specified, the default browser will be determined by the
+    `webbrowser` standard library module, which allows setting of the BROWSER
+    environment variable to override it.
+--keyfile=<Unicode> (NotebookApp.keyfile)
+    Default: ''
+    The full path to a private key file for usage with SSL/TLS.
+--ip=<Unicode> (NotebookApp.ip)
+    Default: 'localhost'
+    The IP address the notebook server will listen on.
+--port=<Int> (NotebookApp.port)
+    Default: 8888
+    The port the notebook server will listen on.
+--certfile=<Unicode> (NotebookApp.certfile)
+    Default: ''
+    The full path to an SSL/TLS certificate file.
+--transport=<CaselessStrEnum> (KernelManager.transport)
+    Default: 'tcp'
+    Choices: ['tcp', 'ipc']
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--notebook-dir=<Unicode> (NotebookApp.notebook_dir)
+    Default: ''
+    The directory to use for notebooks and kernels.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    ipython notebook                       # start the notebook
+    ipython notebook --profile=sympy       # use the sympy profile
+    ipython notebook --certfile=mycert.pem # use SSL/TLS certificate
+
+[C 10:55:16.463 NotebookApp] Bad config encountered during initialization:
+[C 10:55:16.463 NotebookApp] Unrecognized flag: '--password'
+The Jupyter HTML Notebook.
+
+This launches a Tornado based HTML Notebook Server that serves up an
+HTML5/Javascript Notebook client.
+
+Subcommands
+-----------
+
+Subcommands are launched as `jupyter-notebook cmd [args]`. For information on
+using subcommand 'cmd', do: `jupyter-notebook cmd -h`.
+
+list
+    List currently running notebook servers in this profile.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--no-script
+    DEPRECATED, IGNORED
+--pylab
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--generate-config
+    generate default config file
+-y
+    Answer yes to any questions instead of prompting.
+--script
+    DEPRECATED, IGNORED
+--no-mathjax
+    Disable MathJax
+    
+    MathJax is the javascript library IPython uses to render math/LaTeX. It is
+    very large, so you may want to disable it if you have a slow internet
+    connection, or for offline use of the notebook.
+    
+    When disabled, equations etc. will appear as their untransformed TeX source.
+--no-browser
+    Don't open the notebook in a browser after startup.
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+--keyfile=<Unicode> (NotebookApp.keyfile)
+    Default: ''
+    The full path to a private key file for usage with SSL/TLS.
+--pylab=<Unicode> (NotebookApp.pylab)
+    Default: 'disabled'
+    DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib.
+--port-retries=<Int> (NotebookApp.port_retries)
+    Default: 50
+    The number of additional ports to try if the specified port is not
+    available.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--browser=<Unicode> (NotebookApp.browser)
+    Default: ''
+    Specify what command to use to invoke a web browser when opening the
+    notebook. If not specified, the default browser will be determined by the
+    `webbrowser` standard library module, which allows setting of the BROWSER
+    environment variable to override it.
+--notebook-dir=<Unicode> (NotebookApp.notebook_dir)
+    Default: ''
+    The directory to use for notebooks and kernels.
+--certfile=<Unicode> (NotebookApp.certfile)
+    Default: ''
+    The full path to an SSL/TLS certificate file.
+--transport=<CaselessStrEnum> (KernelManager.transport)
+    Default: 'tcp'
+    Choices: ['tcp', 'ipc']
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--port=<Int> (NotebookApp.port)
+    Default: 8888
+    The port the notebook server will listen on.
+--ip=<Unicode> (NotebookApp.ip)
+    Default: 'localhost'
+    The IP address the notebook server will listen on.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    ipython notebook                       # start the notebook
+    ipython notebook --profile=sympy       # use the sympy profile
+    ipython notebook --certfile=mycert.pem # use SSL/TLS certificate
+
+[I 10:55:59.916 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 10:55:59.916 NotebookApp] 0 active kernels 
+[I 10:55:59.916 NotebookApp] The IPython Notebook is running at: https://0.0.0.0:8080/
+[I 10:55:59.916 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:56:05.716 NotebookApp] SSL Error on 9 ('127.0.0.1', 51522): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:05.717 NotebookApp] SSL Error on 10 ('127.0.0.1', 51523): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:07.828 NotebookApp] SSL Error on 9 ('127.0.0.1', 51525): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:08.053 NotebookApp] SSL Error on 10 ('127.0.0.1', 51526): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:08.199 NotebookApp] SSL Error on 11 ('127.0.0.1', 51527): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:08.401 NotebookApp] SSL Error on 12 ('127.0.0.1', 51528): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:08.598 NotebookApp] SSL Error on 13 ('127.0.0.1', 51529): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:08.805 NotebookApp] SSL Error on 14 ('127.0.0.1', 51530): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:09.070 NotebookApp] SSL Error on 9 ('127.0.0.1', 51531): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:16.451 NotebookApp] SSL Error on 9 ('127.0.0.1', 51535): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:16.540 NotebookApp] SSL Error on 10 ('127.0.0.1', 51536): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:16.612 NotebookApp] SSL Error on 11 ('127.0.0.1', 51537): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:16.677 NotebookApp] SSL Error on 12 ('127.0.0.1', 51538): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:16.939 NotebookApp] SSL Error on 13 ('127.0.0.1', 51539): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:17.142 NotebookApp] SSL Error on 14 ('127.0.0.1', 51540): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 10:56:17.409 NotebookApp] SSL Error on 9 ('127.0.0.1', 51541): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[I 10:56:38.392 NotebookApp] New terminal with automatic name: 1
+[I 11:09:58.207 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 11:09:58.208 NotebookApp] 0 active kernels 
+[I 11:09:58.208 NotebookApp] The IPython Notebook is running at: https://0.0.0.0:8080/
+[I 11:09:58.208 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 11:10:00.958 NotebookApp] 302 GET /api/sessions?_=1457577749181 (127.0.0.1) 4.40ms
+[I 11:10:01.006 NotebookApp] 302 GET /api/terminals?_=1457577749182 (127.0.0.1) 1.80ms
+[I 11:10:01.560 NotebookApp] 302 GET /tree (127.0.0.1) 2.22ms
+[I 11:10:06.827 NotebookApp] 302 POST /login?next=%2Ftree (127.0.0.1) 1.97ms
+[I 11:15:22.997 NotebookApp] 302 POST /login?next=%2F (127.0.0.1) 2.20ms
+[I 11:15:23.244 NotebookApp] 302 GET / (127.0.0.1) 0.95ms
+[I 11:18:38.882 NotebookApp] Saving file at /README.md
+[I 11:22:49.430 NotebookApp] Kernel started: c70d8361-3655-4cd7-89f4-02acf271003d
+[W 11:22:51.013 NotebookApp] 404 GET /static/components/MathJax/jax/element/mml/optable/GreekAndCoptic.js?rev=2.5.3 (127.0.0.1) 19.26ms referer=https://127.0.0.1:8080/notebooks/scipy/bayes.ipynb
+[I 11:24:49.974 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 11:26:50.037 NotebookApp] Saving file at /scipy/bayes.ipynb
+[I 14:02:30.529 NotebookApp] Saving file at /scipy/bayes.ipynb
+[W 14:02:43.916 NotebookApp] 404 GET /static/components/MathJax/jax/element/mml/optable/GreekAndCoptic.js?rev=2.5.3 (127.0.0.1) 3.06ms referer=https://127.0.0.1:8080/notebooks/scipy/bayes.ipynb
+[W 14:03:51.138 NotebookApp] 404 GET /static/components/MathJax/jax/element/mml/optable/GreekAndCoptic.js?rev=2.5.3 (127.0.0.1) 3.09ms referer=https://127.0.0.1:8080/notebooks/scipy/bayes.ipynb
+[I 14:05:54.455 NotebookApp] Saving file at /notebook
+[I 14:06:04.196 NotebookApp] Saving file at /notebook
+[W 14:07:34.282 NotebookApp] Notebook commands/linux.ipynb is not trusted
+[I 14:07:35.038 NotebookApp] Kernel started: 5b7e8ea7-ee26-431d-ba33-2bd25373529c
+[W 14:08:06.824 NotebookApp] Notebook commands/misc.ipynb is not trusted
+[I 14:08:07.493 NotebookApp] Kernel started: 2f7a3332-e91f-4f16-b49e-633f8f461a45
+[W 14:10:08.530 NotebookApp] 404 GET /favicon.ico (127.0.0.1) 3.26ms referer=https://127.0.0.1:8080/tree
+[I 14:10:34.288 NotebookApp] New terminal with automatic name: 1
+[I 14:22:10.068 NotebookApp] Copying scipy/effect_size.ipynb to /scipy
+[W 14:22:10.147 NotebookApp] Notebook scipy/effect_size.ipynb is not trusted
+[W 14:22:10.212 NotebookApp] Saving untrusted notebook scipy/effect_size-Copy1.ipynb
+[W 14:22:22.324 NotebookApp] Notebook scipy/effect_size-Copy1.ipynb is not trusted
+[I 14:22:23.335 NotebookApp] Kernel started: 8439e01b-d8e4-4986-a5b3-eff821171815
+[W 14:23:58.965 NotebookApp] Notebook scipy/hypothesis.ipynb is not trusted
+[I 14:23:59.732 NotebookApp] Kernel started: 00114f3c-b405-4e5c-866c-a7c55f9a44b1
+[I 14:24:24.272 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 14:26:24.265 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 14:28:24.256 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 14:30:24.220 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 14:30:49.067 NotebookApp] Saving file at /scipy/basic.ipynb
+[W 14:31:54.398 NotebookApp] Notebook scipy/hypothesis.ipynb is not trusted
+[I 14:32:25.948 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 15:51:02.576 NotebookApp] EOF on FD 34; stopping reading
+[I 15:51:02.577 NotebookApp] Terminal 1 closed
+[I 15:51:04.895 NotebookApp] Kernel shutdown: c70d8361-3655-4cd7-89f4-02acf271003d
+[I 15:51:05.754 NotebookApp] Kernel shutdown: 5b7e8ea7-ee26-431d-ba33-2bd25373529c
+[W 15:51:05.848 NotebookApp] Session not found: session_id='28aee8c4-2f23-42f8-95d8-ed643a3026d8'
+[W 15:51:05.849 NotebookApp] 404 DELETE /api/sessions/28aee8c4-2f23-42f8-95d8-ed643a3026d8 (127.0.0.1) 1.83ms referer=https://127.0.0.1:8080/tree/scipy
+[I 15:51:06.496 NotebookApp] Kernel shutdown: 2f7a3332-e91f-4f16-b49e-633f8f461a45
+[W 15:51:06.591 NotebookApp] Session not found: session_id='6e4bc9bc-34f5-40f0-8494-a919569019f4'
+[W 15:51:06.592 NotebookApp] 404 DELETE /api/sessions/6e4bc9bc-34f5-40f0-8494-a919569019f4 (127.0.0.1) 1.75ms referer=https://127.0.0.1:8080/tree/scipy
+[I 15:51:07.811 NotebookApp] Kernel shutdown: 8439e01b-d8e4-4986-a5b3-eff821171815
+[W 15:51:07.902 NotebookApp] Session not found: session_id='142f9124-3fc8-498d-b032-b277a52f2996'
+[W 15:51:07.903 NotebookApp] 404 DELETE /api/sessions/142f9124-3fc8-498d-b032-b277a52f2996 (127.0.0.1) 2.44ms referer=https://127.0.0.1:8080/tree/scipy
+[W 15:51:08.010 NotebookApp] Session not found: session_id='142f9124-3fc8-498d-b032-b277a52f2996'
+[W 15:51:08.011 NotebookApp] 404 DELETE /api/sessions/142f9124-3fc8-498d-b032-b277a52f2996 (127.0.0.1) 1.71ms referer=https://127.0.0.1:8080/tree/scipy
+[I 15:51:09.573 NotebookApp] Kernel shutdown: 00114f3c-b405-4e5c-866c-a7c55f9a44b1
+[W 15:51:09.577 NotebookApp] Session not found: session_id='00f1e3b2-60f6-4240-beb9-be87dee50e78'
+[W 15:51:09.578 NotebookApp] 404 DELETE /api/sessions/00f1e3b2-60f6-4240-beb9-be87dee50e78 (127.0.0.1) 2.49ms referer=https://127.0.0.1:8080/tree/scipy
+[I 16:35:47.053 NotebookApp] Kernel started: 99cf154f-b830-4d32-a2c3-65d2e2af14aa
+[I 16:37:47.563 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 16:39:47.492 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 16:41:47.566 NotebookApp] Saving file at /scipy/basic.ipynb
+[W 16:52:28.120 NotebookApp] Notebook numpy/numpy.ipynb is not trusted
+[I 16:52:28.725 NotebookApp] Kernel started: c7c89a42-5e9e-456d-a5ee-e030afc0858e
+[I 16:52:47.328 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 16:55:47.802 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 16:56:02.983 NotebookApp] Kernel started: 71df81b7-b7dc-40a7-bd72-2e94ff206411
+[W 16:56:03.229 NotebookApp] 404 GET /static/components/MathJax/jax/element/mml/optable/GreekAndCoptic.js?rev=2.5.3 (127.0.0.1) 5.06ms referer=https://127.0.0.1:8080/notebooks/scipy/bayes.ipynb
+[W 16:56:11.557 NotebookApp] Notebook scipy/hypothesis.ipynb is not trusted
+[I 16:56:12.314 NotebookApp] Kernel started: 4afdb9ae-e778-46e1-8227-22d1e51cde5e
+[W 16:56:21.778 NotebookApp] Notebook scipy/sampling.ipynb is not trusted
+[I 16:56:23.074 NotebookApp] Kernel started: a3195030-f000-46f7-917c-a8aa7b073e8a
+[I 16:58:49.460 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:00:49.317 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:04:49.320 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:10:49.600 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:12:49.342 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:14:49.332 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:16:49.450 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:18:49.333 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:20:49.581 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:22:49.392 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:23:17.949 NotebookApp] Saving file at /scipy/basic.ipynb
+[I 17:23:30.035 NotebookApp] Kernel shutdown: 71df81b7-b7dc-40a7-bd72-2e94ff206411
+[W 21:56:17.467 NotebookApp] SSL Error on 9 ('192.168.1.2', 58615): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:17.987 NotebookApp] SSL Error on 9 ('192.168.1.2', 58617): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:22.471 NotebookApp] SSL Error on 9 ('192.168.1.2', 58622): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:26.496 NotebookApp] SSL Error on 9 ('192.168.1.2', 58626): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:28.912 NotebookApp] SSL Error on 9 ('192.168.1.2', 58628): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:34.094 NotebookApp] SSL Error on 9 ('192.168.1.2', 58632): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:55.109 NotebookApp] SSL Error on 9 ('127.0.0.1', 58656): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:56:55.683 NotebookApp] SSL Error on 9 ('127.0.0.1', 58658): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 21:57:00.721 NotebookApp] SSL Error on 9 ('127.0.0.1', 58662): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[I 21:57:26.318 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 21:57:26.318 NotebookApp] 0 active kernels 
+[I 21:57:26.318 NotebookApp] The IPython Notebook is running at: https://[all ip addresses on your system]:8080/
+[I 21:57:26.318 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:57:35.841 NotebookApp] 302 GET /tree (::1) 4.58ms
+[I 21:58:00.556 NotebookApp] 302 POST /login?next=%2Ftree (::1) 1.94ms
+[W 22:00:30.199 NotebookApp] Notebook scipy/basic.ipynb is not trusted
+[I 22:00:30.882 NotebookApp] Kernel started: d9f1629e-f23e-4b53-aa26-1704772b2b3f
+[W 06:35:22.390 NotebookApp] SSL Error on 18 ('222.129.191.54', 48913): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 06:35:23.025 NotebookApp] SSL Error on 18 ('222.129.191.54', 48916): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 06:35:28.090 NotebookApp] SSL Error on 18 ('222.129.191.54', 48920): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[I 06:35:49.176 NotebookApp] 302 GET / (222.129.191.54) 1.09ms
+[I 06:35:49.195 NotebookApp] 302 GET /tree (222.129.191.54) 3.45ms
+[W 12:24:04.820 NotebookApp] SSL Error on 11 ('127.0.0.1', 65426): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:04.955 NotebookApp] SSL Error on 16 ('127.0.0.1', 65427): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:05.150 NotebookApp] SSL Error on 17 ('127.0.0.1', 65428): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:05.354 NotebookApp] SSL Error on 18 ('127.0.0.1', 65429): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:05.419 NotebookApp] SSL Error on 19 ('127.0.0.1', 65430): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:05.488 NotebookApp] SSL Error on 27 ('127.0.0.1', 65431): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:05.816 NotebookApp] SSL Error on 11 ('127.0.0.1', 65432): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:06.108 NotebookApp] SSL Error on 11 ('127.0.0.1', 65433): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:06.176 NotebookApp] SSL Error on 16 ('127.0.0.1', 65434): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:06.360 NotebookApp] SSL Error on 17 ('127.0.0.1', 65435): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:06.435 NotebookApp] SSL Error on 18 ('127.0.0.1', 65436): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[W 12:24:06.868 NotebookApp] SSL Error on 11 ('127.0.0.1', 65437): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:646)
+[I 12:24:27.912 NotebookApp] 302 GET / (127.0.0.1) 0.90ms
+[W 12:25:28.901 NotebookApp] Notebook pandas/pandas.ipynb is not trusted
+[I 12:25:34.027 NotebookApp] Kernel started: 8e88db57-9b27-4b41-87b6-1cd1e3242179
+[I 12:26:56.384 NotebookApp] New terminal with automatic name: 1
+[C 09:35:16.349 NotebookApp] received signal 15, stopping
+[I 09:35:16.383 NotebookApp] Shutting down kernels
+[I 09:35:17.115 NotebookApp] Kernel shutdown: d9f1629e-f23e-4b53-aa26-1704772b2b3f
+[I 09:35:17.117 NotebookApp] Kernel shutdown: 8e88db57-9b27-4b41-87b6-1cd1e3242179
+[I 09:42:48.605 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 09:42:48.606 NotebookApp] 0 active kernels 
+[I 09:42:48.606 NotebookApp] The IPython Notebook is running at: https://[all ip addresses on your system]:8080/
+[I 09:42:48.606 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:44:09.289 NotebookApp] 302 GET / (::1) 0.85ms
+[I 09:45:45.408 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 09:45:45.409 NotebookApp] 0 active kernels 
+[I 09:45:45.409 NotebookApp] The IPython Notebook is running at: https://[all ip addresses on your system]:8080/
+[I 09:45:45.409 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 09:47:32.064 NotebookApp] Support for specifying --pylab on the command line has been removed.
+[E 09:47:32.065 NotebookApp] Please use `%pylab` or `%matplotlib` in the notebook itself.
+[I 09:48:19.587 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 09:48:19.590 NotebookApp] 0 active kernels 
+[I 09:48:19.590 NotebookApp] The IPython Notebook is running at: https://0.0.0.0:8080/
+[I 09:48:19.590 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:48:27.112 NotebookApp] 302 GET /tree (127.0.0.1) 3.74ms
+[I 09:48:54.442 NotebookApp] 302 GET /tree (127.0.0.1) 1.49ms
+[W 12:15:40.792 NotebookApp] Notebook numpy/numpy.ipynb is not trusted
+[I 12:15:42.329 NotebookApp] Kernel started: 6a47f32e-ea7a-4466-9d90-d689840d5084
+[I 12:17:42.224 NotebookApp] Saving file at /numpy/numpy.ipynb
+[W 12:17:42.227 NotebookApp] Saving untrusted notebook numpy/numpy.ipynb
+[I 12:23:42.242 NotebookApp] Saving file at /numpy/numpy.ipynb
+[W 12:23:42.245 NotebookApp] Saving untrusted notebook numpy/numpy.ipynb
+[I 12:25:42.210 NotebookApp] Saving file at /numpy/numpy.ipynb
+[W 12:25:42.212 NotebookApp] Saving untrusted notebook numpy/numpy.ipynb
+[I 12:27:42.207 NotebookApp] Saving file at /numpy/numpy.ipynb
+[W 12:27:42.209 NotebookApp] Saving untrusted notebook numpy/numpy.ipynb
+[C 14:54:45.420 NotebookApp] received signal 15, stopping
+[I 14:54:45.423 NotebookApp] Shutting down kernels
+[I 14:54:45.942 NotebookApp] Kernel shutdown: 6a47f32e-ea7a-4466-9d90-d689840d5084
+[I 15:01:34.119 NotebookApp] Serving notebooks from local directory: /Users/xing/Documents/workspace/data-science-ipython-notebooks
+[I 15:01:34.119 NotebookApp] 0 active kernels 
+[I 15:01:34.120 NotebookApp] The IPython Notebook is running at: https://0.0.0.0:8080/
+[I 15:01:34.120 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:01:49.973 NotebookApp] 302 GET /tree (127.0.0.1) 3.63ms
+[I 15:01:56.506 NotebookApp] 302 POST /login?next=%2Ftree (127.0.0.1) 6.22ms

@@ -316,6 +316,16 @@ $ cd data-science-ipython-notebooks
 $ ipython notebook
 ```
 
+This will start a `jupiter`  server
+
+```
+ipython notebook --generate-config
+c.Notebook.password=''
+c.Notebook.certfile=''
+c.Notebook.port=''
+c.Notebook.ip=''
+```
+
 Notebooks tested with Python 2.7.x.
 
 ## credits
