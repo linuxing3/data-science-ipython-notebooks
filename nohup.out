@@ -30683,3 +30683,113 @@ ERROR:root:kernel eee105c1-0118-4335-94c3-765f4f466a36 restarted failed!
 [W 22:21:02.904 NotebookApp] SSL Error on 9 ('46.161.9.31', 8121): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
 [W 22:22:27.488 NotebookApp] SSL Error on 9 ('125.66.152.161', 3513): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
 [W 22:22:28.575 NotebookApp] SSL Error on 9 ('125.66.152.161', 3559): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:26:54.348 NotebookApp] SSL Error on 9 ('125.66.152.161', 1056): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:26:55.020 NotebookApp] SSL Error on 9 ('125.66.152.161', 1137): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:27:42.886 NotebookApp] SSL Error on 9 ('104.148.71.26', 2420): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:27:43.282 NotebookApp] SSL Error on 9 ('104.148.71.26', 2641): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:28:17.524 NotebookApp] SSL Error on 12 ('85.25.210.244', 2110): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:28:28.311 NotebookApp] Notebook deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb is not trusted
+[I 22:28:29.330 NotebookApp] Kernel started: e779eb06-5987-475f-b97d-374001bb5cbf
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[I 22:28:32.329 NotebookApp] KernelRestarter: restarting kernel (1/5)
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[I 22:28:35.342 NotebookApp] KernelRestarter: restarting kernel (2/5)
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[I 22:28:38.354 NotebookApp] KernelRestarter: restarting kernel (3/5)
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[W 22:28:39.629 NotebookApp] Timeout waiting for kernel_info reply from e779eb06-5987-475f-b97d-374001bb5cbf
+[I 22:28:41.364 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel e779eb06-5987-475f-b97d-374001bb5cbf restarted
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[W 22:28:44.395 NotebookApp] KernelRestarter: restart failed
+[W 22:28:44.396 NotebookApp] Kernel e779eb06-5987-475f-b97d-374001bb5cbf died, removing from map.
+ERROR:root:kernel e779eb06-5987-475f-b97d-374001bb5cbf restarted failed!
+[W 22:28:44.432 NotebookApp] Kernel deleted before session
+[W 22:28:44.433 NotebookApp] 410 DELETE /api/sessions/9c724a54-e7dc-476c-bd97-c58100bb2dab (127.0.0.1) 3.39ms referer=https://0.0.0.0:8080/notebooks/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb
+[W 22:28:46.143 NotebookApp] Session not found: session_id='9c724a54-e7dc-476c-bd97-c58100bb2dab'
+[W 22:28:46.144 NotebookApp] 404 DELETE /api/sessions/9c724a54-e7dc-476c-bd97-c58100bb2dab (127.0.0.1) 2.32ms referer=https://0.0.0.0:8080/notebooks/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb
+[I 22:28:46.226 NotebookApp] Kernel started: 13c572a3-07c3-4f1c-bf0a-43fcbd2bc63f
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[I 22:28:49.228 NotebookApp] KernelRestarter: restarting kernel (1/5)
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[I 22:28:52.241 NotebookApp] KernelRestarter: restarting kernel (2/5)
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[I 22:28:55.252 NotebookApp] KernelRestarter: restarting kernel (3/5)
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[W 22:28:56.322 NotebookApp] Timeout waiting for kernel_info reply from 13c572a3-07c3-4f1c-bf0a-43fcbd2bc63f
+[I 22:28:58.266 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel 13c572a3-07c3-4f1c-bf0a-43fcbd2bc63f restarted
+/Users/linuxing3/miniconda3/envs/tensorflow/bin/python: No module named ipykernel
+[W 22:29:01.286 NotebookApp] KernelRestarter: restart failed
+[W 22:29:01.287 NotebookApp] Kernel 13c572a3-07c3-4f1c-bf0a-43fcbd2bc63f died, removing from map.
+ERROR:root:kernel 13c572a3-07c3-4f1c-bf0a-43fcbd2bc63f restarted failed!
+[W 22:29:01.318 NotebookApp] Kernel deleted before session
+[W 22:29:01.319 NotebookApp] 410 DELETE /api/sessions/c4cc350d-3629-417b-81cf-d7091b13987d (127.0.0.1) 3.18ms referer=https://0.0.0.0:8080/notebooks/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb
+[I 22:42:03.072 NotebookApp] Serving notebooks from local directory: /Users/linuxing3/data-science-ipython-notebooks
+[I 22:42:03.073 NotebookApp] 0 active kernels 
+[I 22:42:03.073 NotebookApp] The Jupyter Notebook is running at: https://0.0.0.0:8080/
+[I 22:42:03.073 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 22:42:30.077 NotebookApp] Saving file at /deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb
+[I 22:42:31.645 NotebookApp] Kernel started: 52aec19b-e7fb-4221-889b-1533c56fc9c5
+[W 22:42:41.304 NotebookApp] SSL Error on 35 ('115.230.124.164', 2204): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:43:49.578 NotebookApp] Saving file at /deep-learning/tensor-flow-examples/notebooks/1_intro/basic_operations.ipynb
+[W 22:43:59.229 NotebookApp] Session not found: session_id='c4cc350d-3629-417b-81cf-d7091b13987d'
+[W 22:43:59.230 NotebookApp] 404 DELETE /api/sessions/c4cc350d-3629-417b-81cf-d7091b13987d (127.0.0.1) 2.07ms referer=https://0.0.0.0:8080/notebooks/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb
+[I 22:43:59.293 NotebookApp] Kernel started: 4d7782e1-bf6e-40c5-be24-48a6f257b510
+[W 22:44:44.008 NotebookApp] SSL Error on 26 ('125.66.152.161', 3537): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:44:44.709 NotebookApp] SSL Error on 26 ('125.66.152.161', 3576): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:45:26.670 NotebookApp] Notebook pandas/pandas.ipynb is not trusted
+[I 22:45:41.784 NotebookApp] Kernel started: 1daa4920-becc-4feb-80bc-4d5d4a2c1f56
+[I 22:47:42.119 NotebookApp] Saving file at /pandas/pandas.ipynb
+[W 22:47:42.157 NotebookApp] Saving untrusted notebook pandas/pandas.ipynb
+[W 22:49:09.121 NotebookApp] SSL Error on 41 ('125.66.152.161', 4836): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:49:09.792 NotebookApp] SSL Error on 41 ('125.66.152.161', 4902): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:49:41.773 NotebookApp] Saving file at /pandas/pandas.ipynb
+[W 22:49:41.784 NotebookApp] Saving untrusted notebook pandas/pandas.ipynb
+[I 22:50:09.804 NotebookApp] Kernel shutdown: 1daa4920-becc-4feb-80bc-4d5d4a2c1f56
+[W 22:50:41.857 NotebookApp] SSL Error on 27 ('123.249.27.193', 3124): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:50:51.388 NotebookApp] Kernel started: 300293b9-2d62-4339-a4bd-83fc815ee85e
+[W 22:51:01.493 NotebookApp] SSL Error on 27 ('46.161.9.31', 28009): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:51:05.456 NotebookApp] Kernel started: 9d45e670-992e-43ff-829d-86f89facccb8
+[W 22:51:20.160 NotebookApp] Notebook work/seaborn.ipynb is not trusted
+[I 22:51:20.801 NotebookApp] Kernel started: 1f71a26e-7641-4ed6-8964-883ff7b7406d
+[I 22:53:20.834 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 22:53:20.838 NotebookApp] Saving untrusted notebook work/seaborn.ipynb
+[W 22:53:38.463 NotebookApp] SSL Error on 46 ('125.66.152.161', 1628): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:53:39.127 NotebookApp] SSL Error on 46 ('125.66.152.161', 1688): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:55:20.831 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 22:55:20.833 NotebookApp] Saving untrusted notebook work/seaborn.ipynb
+[W 22:57:04.026 NotebookApp] SSL Error on 46 ('222.95.249.81', 44826): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:57:20.841 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 22:58:04.998 NotebookApp] SSL Error on 10 ('125.66.152.161', 2712): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 22:58:05.666 NotebookApp] SSL Error on 10 ('125.66.152.161', 2773): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 22:59:20.831 NotebookApp] Saving file at /work/seaborn.ipynb
+[I 23:01:20.827 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:02:33.300 NotebookApp] SSL Error on 10 ('125.66.152.161', 3760): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:02:34.011 NotebookApp] SSL Error on 10 ('125.66.152.161', 3817): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:03:09.679 NotebookApp] Notebook pandas/pandas.ipynb is not trusted
+[I 23:03:23.911 NotebookApp] Kernel started: 046d2c29-06cc-4ce0-8f58-e31a6f3e4e49
+[I 23:03:26.420 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:07:01.627 NotebookApp] SSL Error on 59 ('125.66.152.161', 4900): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:07:02.291 NotebookApp] SSL Error on 59 ('125.66.152.161', 4971): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:09:01.796 NotebookApp] SSL Error on 60 ('123.249.27.193', 1956): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 23:09:20.831 NotebookApp] Saving file at /work/seaborn.ipynb
+[I 23:11:21.069 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:11:36.456 NotebookApp] SSL Error on 49 ('125.66.152.161', 1811): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:11:37.129 NotebookApp] SSL Error on 49 ('125.66.152.161', 1858): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 23:13:20.830 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:14:13.136 NotebookApp] SSL Error on 49 ('163.172.7.162', 34160): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:14:16.487 NotebookApp] SSL Error on 49 ('163.172.7.162', 37458): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:14:23.826 NotebookApp] SSL Error on 49 ('163.172.7.162', 43244): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 23:15:20.831 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:16:04.017 NotebookApp] SSL Error on 49 ('125.66.152.161', 3068): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 23:17:20.827 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:17:47.410 NotebookApp] SSL Error on 49 ('85.25.210.244', 16882): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 23:19:20.829 NotebookApp] Saving file at /work/seaborn.ipynb
+[W 23:20:33.216 NotebookApp] SSL Error on 49 ('125.66.152.161', 1038): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:20:33.927 NotebookApp] SSL Error on 49 ('125.66.152.161', 1196): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:20:39.379 NotebookApp] SSL Error on 49 ('109.234.38.212', 36038): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:20:46.857 NotebookApp] SSL Error on 49 ('91.196.50.33', 38438): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[W 23:21:09.840 NotebookApp] SSL Error on 49 ('46.161.9.31', 37577): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
+[I 23:21:21.072 NotebookApp] Saving file at /work/seaborn.ipynb
+[I 23:23:21.071 NotebookApp] Saving file at /work/seaborn.ipynb
