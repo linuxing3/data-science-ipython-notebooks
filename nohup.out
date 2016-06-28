@@ -31364,3 +31364,12 @@ ERROR:root:kernel 13c572a3-07c3-4f1c-bf0a-43fcbd2bc63f restarted failed!
 [W 11:18:14.460 NotebookApp] SSL Error on 15 ('109.234.38.212', 38896): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:645)
 [I 11:18:19.489 NotebookApp] Saving file at /work/venezuela_economy.ipynb
 [I 11:18:23.126 NotebookApp] New terminal with automatic name: 1
+[I 15:58:39.378 NotebookApp] Serving notebooks from local directory: /vagrant/workspace/data-science-ipython-notebooks
+[I 15:58:39.379 NotebookApp] 0 active kernels 
+[I 15:58:39.379 NotebookApp] The Jupyter Notebook is running at: https://0.0.0.0:8080/
+[I 15:58:39.379 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+)07[?1000h[1;1H[2J[1;1H[2J8 [?1000l       [W 15:59:36.041 NotebookApp] error on read: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:1751)
+[W 15:59:54.337 NotebookApp] Notebook work/venezuela_economy.ipynb is not trusted
+[I 15:59:54.950 NotebookApp] Kernel started: 7ba79400-e4be-4668-905b-586958365e3f
+[I 16:00:50.248 NotebookApp] Saving file at /work/venezuela_economy.ipynb
+[I 16:11:55.690 NotebookApp] Saving file at /work/venezuela_economy.ipynb
