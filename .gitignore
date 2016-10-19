@@ -62,3 +62,5 @@ scratch/
 # nohup file
 nohup.out
 mycert.pem
+.local/
+.ropeproject/
