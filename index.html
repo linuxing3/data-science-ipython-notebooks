@@ -1,72 +1,822 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Data-science-ipython-notebooks : Continually updated data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.  https://bit.ly/data-notes">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Data-science-ipython-notebooks</title>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Data-science-ipython-notebooks by linuxing3</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/linuxing3/data-science-ipython-notebooks">View on GitHub</a>
-
-          <h1 id="project_title">Data-science-ipython-notebooks</h1>
-          <h2 id="project_tagline">Continually updated data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.  https://bit.ly/data-notes</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/linuxing3/data-science-ipython-notebooks/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/linuxing3/data-science-ipython-notebooks/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+        <header>
+          <h1>Data-science-ipython-notebooks</h1>
+          <h2>Continually updated data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.  https://bit.ly/data-notes</h2>
         </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/linuxing3/data-science-ipython-notebooks/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/linuxing3/data-science-ipython-notebooks/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/linuxing3/data-science-ipython-notebooks" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/README_1200x800.gif">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/coversmall_alt.png">
+  <br>
+</p>
+
+<h1>
+<a id="数据科学ipython-notebooks" class="anchor" href="#%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6ipython-notebooks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>数据科学ipython-notebooks</h1>
+
+<h2>
+<a id="index" class="anchor" href="#index" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Index</h2>
+
+<ul>
+<li><a href="#scikit-learn">scikit-learn</a></li>
+<li><a href="#kaggle-and-business-analyses">kaggle-and-business-analyses</a></li>
+<li><a href="#deep-learning">deep-learning</a></li>
+<li><a href="#statistical-inference-scipy">statistical-inference-scipy</a></li>
+<li><a href="#pandas">pandas</a></li>
+<li><a href="#matplotlib">matplotlib</a></li>
+<li><a href="#numpy">numpy</a></li>
+<li><a href="#python-data">python-data</a></li>
+<li><a href="#spark">spark</a></li>
+<li><a href="#mapreduce-python">mapreduce-python</a></li>
+<li><a href="#aws">amazon web services</a></li>
+<li><a href="#commands">command lines</a></li>
+<li><a href="#misc">misc</a></li>
+<li><a href="#notebook-installation">notebook-installation</a></li>
+<li><a href="#credits">credits</a></li>
+<li><a href="#contributing">contributing</a></li>
+<li><a href="#contact-info">contact-info</a></li>
+<li><a href="#license">license</a></li>
+</ul>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scikitlearn.png">
+</p>
+
+<h2>
+<a id="scikit-learn" class="anchor" href="#scikit-learn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>scikit-learn</h2>
+
+<p>IPython Notebook(s) demonstrating scikit-learn functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb">intro</a></td>
+<td>Intro notebook to scikit-learn.  Scikit-learn adds Python support for large, multi-dimensional arrays and matrices, along with a large library of high-level mathematical functions to operate on these arrays.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb#K-Nearest-Neighbors-Classifier">knn</a></td>
+<td>Implement k-nearest neighbors in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-linear-reg.ipynb">linear-reg</a></td>
+<td>Implement linear regression in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-svm.ipynb">svm</a></td>
+<td>Implement support vector machine classifiers with and without kernels in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-random-forest.ipynb">random-forest</a></td>
+<td>Implement random forest classifiers and regressors in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-k-means.ipynb">k-means</a></td>
+<td>Implement k-means clustering in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-pca.ipynb">pca</a></td>
+<td>Implement principal component analysis in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-gmm.ipynb">gmm</a></td>
+<td>Implement Gaussian mixture models in scikit-learn.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-validation.ipynb">validation</a></td>
+<td>Implement validation and model selection in scikit-learn.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/kaggle.png">
+</p>
+
+<h2>
+<a id="kaggle-and-business-analyses" class="anchor" href="#kaggle-and-business-analyses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>kaggle-and-business-analyses</h2>
+
+<p>IPython Notebook(s) used in <a href="https://www.kaggle.com/">kaggle</a> competitions and business analyses.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/kaggle/titanic.ipynb">titanic</a></td>
+<td>Predicts survival on the Titanic.  Demonstrates data cleaning, exploratory data analysis, and machine learning.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/analyses/churn.ipynb">churn-analysis</a></td>
+<td>Predicts customer churn.  Exercises logistic regression, gradient boosting classifers, support vector machines, random forests, and k-nearest-neighbors.  Discussion of confusion matrices, ROC plots, feature importances, prediction probabilities, and calibration/descrimination.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="http://i.imgur.com/ZhKXrKZ.png">
+</p>
+
+<h2>
+<a id="深度学习deep-learning" class="anchor" href="#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0deep-learning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>深度学习deep-learning</h2>
+
+<p>IPython Notebook(s) demonstrating deep learning functionality.</p>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://avatars0.githubusercontent.com/u/15658638?v=3&amp;s=100">
+</p>
+
+<h3>
+<a id="张量流tensor-flow-tutorials" class="anchor" href="#%E5%BC%A0%E9%87%8F%E6%B5%81tensor-flow-tutorials" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>张量流tensor-flow-tutorials</h3>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/1_intro/basic_operations.ipynb">tsf-basics</a></td>
+<td>Learn basic operations in TensorFlow, a library for various kinds of perceptual and language understanding tasks from Google.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/2_basic_classifiers/linear_regression.ipynb">tsf-linear</a></td>
+<td>Implement linear regression in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/2_basic_classifiers/logistic_regression.ipynb">tsf-logistic</a></td>
+<td>Implement logistic regression in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/2_basic_classifiers/nearest_neighbor.ipynb">tsf-nn</a></td>
+<td>Implement nearest neighboars in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/alexnet.ipynb">tsf-alex</a></td>
+<td>Implement AlexNet in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/convolutional_network.ipynb">tsf-cnn</a></td>
+<td>Implement convolutional neural networks in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/multilayer_perceptron.ipynb">tsf-mlp</a></td>
+<td>Implement multilayer perceptrons in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/3_neural_networks/recurrent_network.ipynb">tsf-rnn</a></td>
+<td>Implement recurrent neural networks in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/4_multi_gpu/multigpu_basics.ipynb">tsf-gpu</a></td>
+<td>Learn about basic multi-GPU computation in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/5_ui/graph_visualization.ipynb">tsf-gviz</a></td>
+<td>Learn about graph visualization in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-examples/notebooks/5_ui/loss_visualization.ipynb">tsf-lviz</a></td>
+<td>Learn about loss visualization in TensorFlow.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Also check out another set of TensorFlow tutorials <a href="https://github.com/pkmital/tensorflow_tutorials">here</a>.</p>
+
+<h3>
+<a id="张量流tensor-flow-exercises" class="anchor" href="#%E5%BC%A0%E9%87%8F%E6%B5%81tensor-flow-exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>张量流tensor-flow-exercises</h3>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-exercises/1_notmnist.ipynb">tsf-not-mnist</a></td>
+<td>Learn simple data curation by creating a pickle with formatted datasets for training, development and testing in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-exercises/2_fullyconnected.ipynb">tsf-fully-connected</a></td>
+<td>Progressively train deeper and more accurate models using logistic regression and neural networks in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-exercises/3_regularization.ipynb">tsf-regularization</a></td>
+<td>Explore regularization techniques by training fully connected networks to classify notMNIST characters in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-exercises/4_convolutions.ipynb">tsf-convolutions</a></td>
+<td>Create convolutional neural networks in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-exercises/5_word2vec.ipynb">tsf-word2vec</a></td>
+<td>Train a skip-gram model over Text8 data in TensorFlow.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/tensor-flow-exercises/6_lstm.ipynb">tsf-lstm</a></td>
+<td>Train a LSTM character model over Text8 data in TensorFlow.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="http://www.deeplearning.net/software/theano/_static/theano_logo_allblue_200x46.png">
+</p>
+
+<h3>
+<a id="当年theano-tutorials" class="anchor" href="#%E5%BD%93%E5%B9%B4theano-tutorials" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>当年theano-tutorials</h3>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/theano-tutorial/intro_theano/intro_theano.ipynb">theano-intro</a></td>
+<td>Intro to Theano, which allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/theano-tutorial/scan_tutorial/scan_tutorial.ipynb">theano-scan</a></td>
+<td>Learn scans, a mechanism to perform loops in a Theano graph.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/theano-tutorial/intro_theano/logistic_regression.ipynb">theano-logistic</a></td>
+<td>Implement logistic regression in Theano.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/theano-tutorial/rnn_tutorial/simple_rnn.ipynb">theano-rnn</a></td>
+<td>Implement recurrent neural networks in Theano.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/theano-tutorial/theano_mlp/theano_mlp.ipynb">theano-mlp</a></td>
+<td>Implement multilayer perceptrons in Theano.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="deep-learning-misc" class="anchor" href="#deep-learning-misc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>deep-learning-misc</h3>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/deep-dream/dream.ipynb">deep-dream</a></td>
+<td>Caffe-based computer vision program which uses a convolutional neural network to find and enhance patterns in images.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scipy.png">
+</p>
+
+<h2>
+<a id="统计推理statistical-inference-scipy" class="anchor" href="#%E7%BB%9F%E8%AE%A1%E6%8E%A8%E7%90%86statistical-inference-scipy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>统计推理statistical-inference-scipy</h2>
+
+<p>IPython Notebook(s) demonstrating statistical inference with SciPy functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>scipy</td>
+<td>SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python. It adds significant power to the interactive Python session by providing the user with high-level commands and classes for manipulating and visualizing data.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb">effect-size</a></td>
+<td>Explore statistics that quantify effect size by analyzing the difference in height between men and women.  Uses data from the Behavioral Risk Factor Surveillance System (BRFSS) to estimate the mean and standard deviation of height for adult women and men in the United States.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb">sampling</a></td>
+<td>Explore random sampling by analyzing the average weight of men and women in the United States using BRFSS data.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb">hypothesis</a></td>
+<td>Explore hypothesis testing by analyzing the difference of first-born babies compared with others.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/pandas.png">
+</p>
+
+<h2>
+<a id="pandas" class="anchor" href="#pandas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pandas</h2>
+
+<p>IPython Notebook(s) demonstrating pandas functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/pandas/pandas.ipynb">pandas</a></td>
+<td>Software library written for data manipulation and analysis in Python. Offers data structures and operations for manipulating numerical tables and time series.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/donnemartin/viz/blob/master/githubstats/data_wrangling.ipynb">github-data-wrangling</a></td>
+<td>Demonstrates loading, cleaning, merging, and feature engineering of GitHub data from the <a href="https://github.com/donnemartin/viz"><code>Viz</code></a> repo.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/matplotlib.png">
+</p>
+
+<h2>
+<a id="数学图形库matplotlib" class="anchor" href="#%E6%95%B0%E5%AD%A6%E5%9B%BE%E5%BD%A2%E5%BA%93matplotlib" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>数学图形库matplotlib</h2>
+
+<p>IPython Notebook(s) demonstrating matplotlib functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/matplotlib/matplotlib.ipynb">matplotlib</a></td>
+<td>Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/matplotlib/matplotlib-applied.ipynb">matplotlib-applied</a></td>
+<td>Matplotlib visualizations appied to Kaggle competitions for exploratory data analysis.  Examples of bar plots, histograms, subplot2grid, normalized plots, scatter plots, subplots, and kernel density estimation plots.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/numpy.png">
+</p>
+
+<h2>
+<a id="数库numpy" class="anchor" href="#%E6%95%B0%E5%BA%93numpy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>数库numpy</h2>
+
+<p>IPython Notebook(s) demonstrating NumPy functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/numpy/numpy.ipynb">numpy</a></td>
+<td>Adds Python support for large, multi-dimensional arrays and matrices, along with a large library of high-level mathematical functions to operate on these arrays.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/python.png">
+</p>
+
+<h2>
+<a id="python-data" class="anchor" href="#python-data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>python-data</h2>
+
+<p>IPython Notebook(s) demonstrating Python functionality geared towards data analysis.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/structs.ipynb">data structures</a></td>
+<td>Learn Python basics with tuples, lists, dicts, sets.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/structs_utils.ipynb">data structure utilities</a></td>
+<td>Learn Python operations such as slice, range, xrange, bisect, sort, sorted, reversed, enumerate, zip, list comprehensions.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/functions.ipynb">functions</a></td>
+<td>Learn about more advanced Python features: Functions as objects, lambda functions, closures, <em>args, *</em>kwargs currying, generators, generator expressions, itertools.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/datetime.ipynb">datetime</a></td>
+<td>Learn how to work with Python dates and times: datetime, strftime, strptime, timedelta.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/logs.ipynb">logging</a></td>
+<td>Learn about Python logging with RotatingFileHandler and TimedRotatingFileHandler.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/pdb.ipynb">pdb</a></td>
+<td>Learn how to debug in Python with the interactive source code debugger.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/python-data/unit_tests.ipynb">unit tests</a></td>
+<td>Learn how to test in Python with Nose unit tests.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/spark.png">
+</p>
+
+<h2>
+<a id="星火库spark" class="anchor" href="#%E6%98%9F%E7%81%AB%E5%BA%93spark" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>星火库spark</h2>
+
+<p>IPython Notebook(s) demonstrating spark and HDFS functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/spark/spark.ipynb">spark</a></td>
+<td>In-memory cluster computing framework, up to 100 times faster for certain applications and is well suited for machine learning algorithms.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/spark/hdfs.ipynb">hdfs</a></td>
+<td>Reliably stores very large files across machines in a large cluster.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/mrjob.png">
+</p>
+
+<h2>
+<a id="映缩mapreduce-python" class="anchor" href="#%E6%98%A0%E7%BC%A9mapreduce-python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>映缩mapreduce-python</h2>
+
+<p>IPython Notebook(s) demonstrating Hadoop MapReduce with mrjob functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/mapreduce/mapreduce-python.ipynb">mapreduce-python</a></td>
+<td>Runs MapReduce jobs in Python, executing jobs locally or on Hadoop clusters. Demonstrates Hadoop Streaming in Python code with unit test and <a href="https://github.com/Yelp/mrjob">mrjob</a> config file to analyze Amazon S3 bucket logs on Elastic MapReduce.  <a href="https://github.com/discoproject/disco/">Disco</a> is another python-based alternative.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/aws.png">
+</p>
+
+<h2>
+<a id="aws" class="anchor" href="#aws" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>aws</h2>
+
+<p>IPython Notebook(s) demonstrating Amazon Web Services (AWS) and AWS tools functionality.</p>
+
+<p>Also check out:</p>
+
+<ul>
+<li>
+<a href="https://github.com/donnemartin/saws">SAWS</a>: A Supercharged AWS command line interface (CLI).</li>
+<li>
+<a href="https://github.com/donnemartin/awesome-aws">Awesome AWS</a>: A curated list of libraries, open source repos, guides, blogs, and other resources.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#Boto">boto</a></td>
+<td>Official AWS SDK for Python.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#s3cmd">s3cmd</a></td>
+<td>Interacts with S3 through the command line.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#s3distcp">s3distcp</a></td>
+<td>Combines smaller files and aggregates them together by taking in a pattern and target file.  S3DistCp can also be used to transfer large volumes of data from S3 to your Hadoop cluster.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#s3-parallel-put">s3-parallel-put</a></td>
+<td>Uploads multiple files to S3 in parallel.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#redshift">redshift</a></td>
+<td>Acts as a fast data warehouse built on top of technology from massive parallel processing (MPP).</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#kinesis">kinesis</a></td>
+<td>Streams data in real time with the ability to process thousands of data streams per second.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#lambda">lambda</a></td>
+<td>Runs code in response to events, automatically managing compute resources.</td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/commands.png">
+</p>
+
+<h2>
+<a id="commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>commands</h2>
+
+<p>IPython Notebook(s) demonstrating various command lines for Linux, Git, etc.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/linux.ipynb">linux</a></td>
+<td>Unix-like and mostly POSIX-compliant computer operating system.  Disk usage, splitting files, grep, sed, curl, viewing running processes, terminal syntax highlighting, and Vim.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#anaconda">anaconda</a></td>
+<td>Distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing, that aims to simplify package management and deployment.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#ipython-notebook">ipython notebook</a></td>
+<td>Web-based interactive computational environment where you can combine code execution, text, mathematics, plots and rich media into a single document.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#git">git</a></td>
+<td>Distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#ruby">ruby</a></td>
+<td>Used to interact with the AWS command line and for Jekyll, a blog framework that can be hosted on GitHub Pages.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#jekyll">jekyll</a></td>
+<td>Simple, blog-aware, static site generator for personal, project, or organization sites.  Renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served by Apache HTTP Server, Nginx or another web server.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#pelican">pelican</a></td>
+<td>Python-based alternative to Jekyll.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/commands/misc.ipynb#django">django</a></td>
+<td>High-level Python Web framework that encourages rapid development and clean, pragmatic design. It can be useful to share reports/analyses and for blogging. Lighter-weight alternatives include <a href="https://github.com/Pylons/pyramid">Pyramid</a>, <a href="https://github.com/mitsuhiko/flask">Flask</a>, <a href="https://github.com/tornadoweb/tornado">Tornado</a>, and <a href="https://github.com/bottlepy/bottle">Bottle</a>.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="misc" class="anchor" href="#misc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>misc</h2>
+
+<p>IPython Notebook(s) demonstrating miscellaneous functionality.</p>
+
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/misc/regex.ipynb">regex</a></td>
+<td>Regular expression cheat sheet useful in data wrangling.</td>
+</tr>
+<tr>
+<td><a href="http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/misc/Algorithmia.ipynb">algorithmia</a></td>
+<td>Algorithmia is a marketplace for algorithms. This notebook showcases 4 different algorithms: Face Detection, Content Summarizer, Latent Dirichlet Allocation and Optical Character Recognition.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="notebook-installation" class="anchor" href="#notebook-installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>notebook-installation</h2>
+
+<h3>
+<a id="蟒蛇anaconda" class="anchor" href="#%E8%9F%92%E8%9B%87anaconda" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>蟒蛇anaconda</h3>
+
+<p>Anaconda is a free distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing that aims to simplify package management and deployment.</p>
+
+<p>Follow instructions to install <a href="http://docs.continuum.io/anaconda/install.html">Anaconda</a> or the more lightweight <a href="http://conda.pydata.org/miniconda.html">miniconda</a>.</p>
+
+<h3>
+<a id="pip-requirements" class="anchor" href="#pip-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pip-requirements</h3>
+
+<p>If you prefer to use a more lightweight installation procedure than Anaconda, first clone the repo then run the following pip command on the provided requirements.txt file:</p>
+
+<pre><code>$ pip install -r requirements.txt
+</code></pre>
+
+<h3>
+<a id="dev-setup" class="anchor" href="#dev-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>dev-setup</h3>
+
+<p>For detailed instructions, scripts, and tools to set up your development environment for data analysis, check out the <a href="https://github.com/donnemartin/dev-setup">dev-setup</a> repo.</p>
+
+<h3>
+<a id="running-notebooks" class="anchor" href="#running-notebooks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>running-notebooks</h3>
+
+<p>To view interactive content or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found <a href="http://ipython.org/notebook.html">here.</a></p>
+
+<pre><code>$ git clone https://github.com/donnemartin/data-science-ipython-notebooks.git
+$ cd data-science-ipython-notebooks
+$ ipython notebook
+</code></pre>
+
+<p>This will start a <code>jupiter</code>  server</p>
+
+<pre><code>ipython notebook --generate-config
+c.Notebook.password=''
+c.Notebook.certfile=''
+c.Notebook.port=''
+c.Notebook.ip=''
+</code></pre>
+
+<p>Notebooks tested with Python 2.7.x.
+Notebooks tested with Python 3.5.x.</p>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>credits</h2>
+
+<ul>
+<li>
+<a href="http://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793">Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython</a> by Wes McKinney</li>
+<li>
+<a href="https://github.com/jakevdp/sklearn_pycon2015">PyCon 2015 Scikit-learn Tutorial</a> by Jake VanderPlas</li>
+<li>
+<a href="https://github.com/ogrisel/parallel_ml_tutorial">Parallel Machine Learning with scikit-learn and IPython</a> by Olivier Grisel</li>
+<li>
+<a href="https://github.com/AllenDowney/CompStats">Statistical Interference Using Computational Methods in Python</a> by Allen Downey</li>
+<li>
+<a href="https://github.com/aymericdamien/TensorFlow-Examples">TensorFlow Examples</a> by Aymeric Damien</li>
+<li>
+<a href="https://github.com/pkmital/tensorflow_tutorials">TensorFlow Tutorials</a> by Parag K Mital</li>
+<li>
+<a href="https://github.com/mila-udem/summerschool2015">Summer School 2015</a> by mila-udem</li>
+<li><a href="https://www.kaggle.com/">Kaggle</a></li>
+<li><a href="http://blog.yhathq.com/">Yhat Blog</a></li>
+</ul>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>contributing</h2>
+
+<p>Contributions are welcome!  For bug reports or requests please <a href="https://github.com/donnemartin/data-science-ipython-notebooks/issues">submit an issue</a>.</p>
+
+<h2>
+<a id="contact-info" class="anchor" href="#contact-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>contact-info</h2>
+
+<p>Feel free to contact me to discuss any issues, questions, or comments.</p>
+
+<ul>
+<li>Email: <a href="mailto:donne.martin@gmail.com">donne.martin@gmail.com</a>
+</li>
+<li>Twitter: <a href="https://twitter.com/donne_martin">@donne_martin</a>
+</li>
+<li>GitHub: <a href="https://github.com/donnemartin">donnemartin</a>
+</li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/donnemartin">donnemartin</a>
+</li>
+<li>Website: <a href="http://donnemartin.com">donnemartin.com</a>
+</li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>license</h2>
+
+<p>This repository contains a variety of content; some developed by Donne Martin, and some from third-parties.  The third-party content is distributed under the license provided by those parties.</p>
+
+<p>The content developed by Donne Martin is distributed under the following license:</p>
+
+<pre><code>Copyright 2015 Donne Martin
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</code></pre>
+        </section>
+
+        <footer>
+          Data-science-ipython-notebooks is maintained by <a href="https://github.com/linuxing3">linuxing3</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Data-science-ipython-notebooks maintained by <a href="https://github.com/linuxing3">linuxing3</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
   </body>
 </html>
