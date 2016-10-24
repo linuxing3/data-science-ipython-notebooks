@@ -311,9 +311,9 @@ For detailed instructions, scripts, and tools to set up your development environ
 To view interactive content or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
 
 ```
-$ git clone https://github.com/donnemartin/data-science-ipython-notebooks.git
+$ git clone https://github.com/linuxing3/data-science-ipython-notebooks.git
 $ cd data-science-ipython-notebooks
-$ ipython notebook
+$ jupiter notebook
 ```
 
 This will start a `jupiter`  server
@@ -327,6 +327,7 @@ c.Notebook.ip=''
 ```
 
 Notebooks tested with Python 2.7.x.
+
 Notebooks tested with Python 3.5.x.
 
 ## credits
