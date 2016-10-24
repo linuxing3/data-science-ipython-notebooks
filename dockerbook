@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+docker run -d -p 8888:8888 -v /Users/linuxing3/workspace/notebooks/:/notebooks linuxing3/keras:level1

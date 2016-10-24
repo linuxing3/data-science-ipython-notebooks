@@ -8,7 +8,7 @@
   <br/>
 </p>
 
-# data-science-ipython-notebooks
+# 数据科学ipython-notebooks
 
 ## Index
 
@@ -71,7 +71,7 @@ IPython Notebook(s) used in [kaggle](https://www.kaggle.com/) competitions and b
   <img src="http://i.imgur.com/ZhKXrKZ.png">
 </p>
 
-## deep-learning
+## 深度学习deep-learning
 
 IPython Notebook(s) demonstrating deep learning functionality.
 
@@ -80,7 +80,7 @@ IPython Notebook(s) demonstrating deep learning functionality.
   <img src="https://avatars0.githubusercontent.com/u/15658638?v=3&s=100">
 </p>
 
-### tensor-flow-tutorials
+### 张量流tensor-flow-tutorials
 
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ IPython Notebook(s) demonstrating deep learning functionality.
 
 Also check out another set of TensorFlow tutorials [here](https://github.com/pkmital/tensorflow_tutorials).
 
-### tensor-flow-exercises
+### 张量流tensor-flow-exercises
 
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Also check out another set of TensorFlow tutorials [here](https://github.com/pkm
   <img src="http://www.deeplearning.net/software/theano/_static/theano_logo_allblue_200x46.png">
 </p>
 
-### theano-tutorials
+### 当年theano-tutorials
 
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Also check out another set of TensorFlow tutorials [here](https://github.com/pkm
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/scipy.png">
 </p>
 
-## statistical-inference-scipy
+## 统计推理statistical-inference-scipy
 
 IPython Notebook(s) demonstrating statistical inference with SciPy functionality.
 
@@ -165,7 +165,7 @@ IPython Notebook(s) demonstrating pandas functionality.
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/matplotlib.png">
 </p>
 
-## matplotlib
+## 数学图形库matplotlib
 
 IPython Notebook(s) demonstrating matplotlib functionality.
 
@@ -179,7 +179,7 @@ IPython Notebook(s) demonstrating matplotlib functionality.
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/numpy.png">
 </p>
 
-## numpy
+## 数库numpy
 
 IPython Notebook(s) demonstrating NumPy functionality.
 
@@ -211,7 +211,7 @@ IPython Notebook(s) demonstrating Python functionality geared towards data analy
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/spark.png">
 </p>
 
-## spark
+## 星火库spark
 
 IPython Notebook(s) demonstrating spark and HDFS functionality.
 
@@ -225,7 +225,7 @@ IPython Notebook(s) demonstrating spark and HDFS functionality.
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/mrjob.png">
 </p>
 
-## mapreduce-python
+## 映缩mapreduce-python
 
 IPython Notebook(s) demonstrating Hadoop MapReduce with mrjob functionality.
 
@@ -290,7 +290,7 @@ IPython Notebook(s) demonstrating miscellaneous functionality.
 
 ## notebook-installation
 
-### anaconda
+### 蟒蛇anaconda
 
 Anaconda is a free distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing that aims to simplify package management and deployment.
 
@@ -327,6 +327,7 @@ c.Notebook.ip=''
 ```
 
 Notebooks tested with Python 2.7.x.
+Notebooks tested with Python 3.5.x.
 
 ## credits
 
