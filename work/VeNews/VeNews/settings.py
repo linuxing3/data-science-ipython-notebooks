@@ -71,7 +71,7 @@ ITEM_PIPELINES = {
    'VeNews.pipelines.OrinocoPipeline': 1,
    #'scrapyTutorial.pipelines.YppptImagePipelines': 1,
 }
-FILES_STORE = '~/Downloads/files'
+FILES_STORE = 'files'
 IMAGES_STORE = 'images'
 IMAGES_EXPIRES = 90
 IMAGES_THUMBS = {
