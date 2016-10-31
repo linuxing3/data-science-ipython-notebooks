@@ -47,6 +47,9 @@ coverage.xml
 # Django stuff:
 *.log
 
+# Store file
+.DS_Store
+**/.DS_Store
 # Sphinx documentation
 docs/_build/
 
