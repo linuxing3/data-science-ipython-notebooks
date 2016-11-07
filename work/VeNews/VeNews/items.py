@@ -19,4 +19,11 @@ class orinocoItem(scrapy.Item):
     file_paths = scrapy.Field()
     image_urls = scrapy.Field()
     images = scrapy.Field()
-    
+
+
+class longbuluoItem(scrapy.Item):
+    title = scrapy.Field()
+    url = scrapy.Field()
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
+    file_paths = scrapy.Field()

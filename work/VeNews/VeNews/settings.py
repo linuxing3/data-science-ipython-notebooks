@@ -68,7 +68,9 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
    #'scrapy.pipelines.files.FilesPipeline': 1,
    #'scrapy.pipelines.images.ImagesPipeline': 2,
-   'VeNews.pipelines.OrinocoPipeline': 1,
+   #'VeNews.pipelines.OrinocoPipeline': 1,
+   #'VeNews.pipelines.JsonExportPipeline': 1,
+   'VeNews.pipelines.TextExportPipeline': 1,
    #'scrapyTutorial.pipelines.YppptImagePipelines': 1,
 }
 FILES_STORE = 'files'
