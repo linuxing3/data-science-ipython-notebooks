@@ -1,17 +1,8 @@
-FROM xblaster/tensorflow-jupyter
+FROM linuxing3/keras:pyspider 
 MAINTAINER Xing Wenju "linuxing3@qq.com"
 
-# Original repository
-# https://github.com/xblaster/dockerfiles/tree/master/tensorflow-jupyter
-
-# Create conda user, get anaconda by web or locally
-# RUN useradd --create-home --home-dir /home/condauser --shell /bin/bash condauser
-# Set persistent environment variables for python3 and python2
-ENV PY2PATH=/home/condauser/anaconda3/envs/python2/bin
-ENV PY3PATH=/home/condauser/anaconda3/bin
-
-# Run conda install from conda-forge repositories
-RUN $PY3PATH/conda install -c conda-forge keras tensorflow theano
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
 
 # Setting a another volume mount point
 VOLUME /notebooks
@@ -21,4 +12,4 @@ WORKDIR /notebooks
 USER root
 
 # Command Entry
-CMD $PY3PATH/jupyter notebook --no-browser --ip=0.0.0.0
+CMD /home/condauser/anaconda3/bin/pyspider all

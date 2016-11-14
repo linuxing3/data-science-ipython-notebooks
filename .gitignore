@@ -67,3 +67,11 @@ nohup.out
 mycert.pem
 .local/
 .ropeproject/
+
+
+# VeNews
+
+work/VeNews/build/
+work/VeNews/files/
+work/VeNews/data/
+work/data/

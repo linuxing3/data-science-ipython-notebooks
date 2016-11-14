@@ -1,0 +1,3 @@
+curl http://45.32.85.86:6800/schedule.json -d project=VeNews -d spider=oschina
+curl http://45.32.85.86:6800/schedule.json -d project=VeNews -d spider=orinoco
+curl http://45.32.85.86:6800/schedule.json -d project=VeNews -d spider=longbuluo

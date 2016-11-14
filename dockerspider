@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+docker run -d -p 5000:5000 -p 23333:23333 \
+        -v /Users/linuxing3/workspace/notebooks/:/notebooks \
+        linuxing3/keras:pyspider 
