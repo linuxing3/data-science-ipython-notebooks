@@ -271,6 +271,7 @@ class MongoPipeline(object):
         # 生成客户端
         self.client = pymongo.MongoClient(self.mongo_host, self.mongo_port)
         # 连接数据库
+        # self.db = spider.name
         self.db = self.client[self.mongo_db]
 
     def close_spider(self, spider):
