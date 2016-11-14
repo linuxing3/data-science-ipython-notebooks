@@ -68,7 +68,9 @@ mycert.pem
 .local/
 .ropeproject/
 
-
+# skipping data file
+data
+files
 # VeNews
 
 work/VeNews/build/

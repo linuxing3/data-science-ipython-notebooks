@@ -1,1 +1,1 @@
-ps ax|grep ipython
+ps ax|grep jupyter
