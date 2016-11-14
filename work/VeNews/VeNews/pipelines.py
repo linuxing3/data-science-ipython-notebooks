@@ -7,7 +7,7 @@
 import codecs
 import scrapy
 from scrapy.exceptions import DropItem
-# from scrapy.pipelines.images import ImagesPipeline
+from scrapy.pipelines.images import ImagesPipeline
 from scrapy.pipelines.files import FilesPipeline
 
 from scrapy import signals
@@ -40,10 +40,10 @@ class MovieItemExporter(BaseItemExporter):
 	OrinocoPipeline is a filespipeline which
 	can download a pdf from the orinoco newpaper
 
-	we overwrite get_media_requests function to crawl url
+	we overwrite [get_media_requests] function to crawl url
 	and send the crawled item for further process
 
-	overwrite filepath function to generate customized file
+	overwrite [filepath] function to generate customized file
 	saving path
 
 	item completed and send back item
@@ -267,13 +267,18 @@ class MongoPipeline(object):
 				mongo_db=crawler.settings.get('MONGO_DB', 'oschinadb'),
 				)
     def open_spider(self, spider):
+        # 打来爬虫时候，连接mongo数据库
+        # 生成客户端
         self.client = pymongo.MongoClient(self.mongo_host, self.mongo_port)
+        # 连接数据库
         self.db = self.client[self.mongo_db]
 
     def close_spider(self, spider):
         self.client.close()
 
     def process_item(self, item, spider):
+        # 实用类名作为集合名称
         collection_name = item.__class__.__name__
+        # 用客户端插入项的字典
         self.db[collection_name].insert(dict(item))
         return item

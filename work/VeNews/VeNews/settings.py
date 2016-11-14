@@ -14,14 +14,16 @@ BOT_NAME = 'VeNews'
 SPIDER_MODULES = ['VeNews.spiders']
 NEWSPIDER_MODULE = 'VeNews.spiders'
 
-USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0'
-
+# Mongo database settings
 MONGO_HOST = '45.32.85.86'
 MONGO_PORT = 27017
 MONGO_DB = 'oschinadb'
+MONGO_DB_ORINOCO = 'orinocodb'
+MONGO_DB_LONGBULUO = 'longbuluodb'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'VeNews (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -70,6 +72,9 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 
+# 使用图片文件的管道，可以自动处理
+# 可以使用自定义的管道
+# 可以加载新的中间件
 ITEM_PIPELINES = {
    #'scrapy.pipelines.files.FilesPipeline': 1,
    #'scrapy.pipelines.images.ImagesPipeline': 2,
@@ -79,6 +84,8 @@ ITEM_PIPELINES = {
    'VeNews.pipelines.MongoPipeline': 2,
    #'scrapyTutorial.pipelines.YppptImagePipelines': 1,
 }
+
+# 文件和图片管道的配置，包括文件目录，图片大小等
 FILES_STORE = 'files'
 IMAGES_STORE = 'images'
 IMAGES_EXPIRES = 90

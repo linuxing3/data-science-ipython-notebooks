@@ -25,6 +25,7 @@ class OschinaSpider(scrapy.Spider):
         """
         for next_page in response.css('a.next'):
             next_page_url =  next_page.css('::attr(href)').extract_first()
+            yield scrapy.Request(response.urljoin(next_page_url), callback=self.parse_blog)
 
     def parse_blog(self, response):
         item = OschinaItem()
