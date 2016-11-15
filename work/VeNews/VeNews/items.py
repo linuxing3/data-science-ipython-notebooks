@@ -8,7 +8,7 @@
 import scrapy
 
 
-class orinocoItem(scrapy.Item):
+class OrinocoItem(scrapy.Item):
     title = scrapy.Field()
     date1 = scrapy.Field()
     date2 = scrapy.Field()
@@ -22,7 +22,7 @@ class orinocoItem(scrapy.Item):
     images = scrapy.Field()
 
 
-class longbuluoItem(scrapy.Item):
+class LongbuluoItem(scrapy.Item):
     title = scrapy.Field()
     url = scrapy.Field()
     file_urls = scrapy.Field()

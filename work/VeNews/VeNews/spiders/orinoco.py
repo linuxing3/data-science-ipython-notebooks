@@ -14,11 +14,12 @@ archive > div.spoiler > div > p
 
 """
 import scrapy
-from VeNews.items import orinocoItem
+from VeNews.items import OrinocoItem
 
 
 orinocoUrl1 = 'http://www.correodelorinoco.gob.ve',
 orinocoUrl1 = 'http://www.correodelorinoco.gob.ve',
+
 
 def checkURL(url):
     file_guid = url.split('/')[-1]
@@ -46,7 +47,7 @@ class OrinocosSpiderPage(scrapy.Spider):
             """
                 Creating a item
             """
-            item = orinocoItem()
+            item = OrinocoItem()
             """
                 Extracting titles
             """
@@ -56,7 +57,7 @@ class OrinocosSpiderPage(scrapy.Spider):
             """
             urls = elm.css('a.left ::attr(href)').extract()
             urls = [checkURL(url) for url in urls if url]
-            item['file_urls'] =  urls
+            item['file_urls'] = urls
 
             yield item
 
@@ -86,18 +87,24 @@ class OrinocoSpiderPdf(scrapy.Spider):
         for elm in response.css('table > tr > td:nth-child(odd) > p.link:nth-child(odd) > a.text ::attr(href)')
         """
         for elm in response.css('table > tr'):
-            item = orinocoItem()
+            item = OrinocoItem()
             """get even table data, which has images link
             """
-            item['image_urls'] = elm.css('td:nth-child(odd) > img.attachment-medium::attr(src)').extract()
+            item['image_urls'] = elm.css(
+                'td:nth-child(odd) > img.attachment-medium::attr(src)').extract()
             """get other meta data from odd table data
             """
-            item['date1'] = elm.css('td:nth-child(even) > p.date1 ::text').extract()
-            item['date2'] = elm.css('td:nth-child(even) > p.date2 ::text').extract()
-            item['numero'] = elm.css('td:nth-child(even) > p.numero ::text').extract()
-            item['texto'] = elm.css('td:nth-child(even) > p.texto ::text').extract()
+            item['date1'] = elm.css(
+                'td:nth-child(even) > p.date1 ::text').extract()
+            item['date2'] = elm.css(
+                'td:nth-child(even) > p.date2 ::text').extract()
+            item['numero'] = elm.css(
+                'td:nth-child(even) > p.numero ::text').extract()
+            item['texto'] = elm.css(
+                'td:nth-child(even) > p.texto ::text').extract()
 
-            urls = elm.css('td:nth-child(even) > p.link > a.text ::attr(href)').extract()
+            urls = elm.css(
+                'td:nth-child(even) > p.link > a.text ::attr(href)').extract()
             urls = [checkURL(url) for url in urls if url]
             item['file_urls'] = urls
             yield item

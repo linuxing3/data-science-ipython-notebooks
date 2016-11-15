@@ -50,18 +50,20 @@ class MovieItemExporter(BaseItemExporter):
 """
 
 
-class simplePipeline(FilesPipeline):
+class SimplePipeline(FilesPipeline):
     """
         manipulating file url from the item got
         if url is ended with pdf, let it be
         if url is a webpage, redirecting to print version
     """
+
     def get_media_requests(self, item, info):
         for file_url in item['file_urls']:
             yield scrapy.Request(file_url, meta={'item': item})
     """
         Checking item with file_paths
     """
+
     def item_completed(self, results, item, info):
         file_paths = [x['path'] for ok, x in results if ok]
         if not file_paths:
@@ -71,6 +73,7 @@ class simplePipeline(FilesPipeline):
     """
         Saving file with customized name and path
     """
+
     def file_path(self, request, response=None, info=None):
         """
             checking file extension, if pdf, rename it with pdf extension
@@ -87,7 +90,6 @@ class simplePipeline(FilesPipeline):
         return filename
 
 
-
 """
 	电影处理管道
 """
@@ -99,12 +101,14 @@ class MoviePipeline(FilesPipeline):
         if url is ended with pdf, let it be
         if url is a webpage, redirecting to print version
     """
+
     def get_media_requests(self, item, info):
         for file_url in item['file_urls']:
             yield scrapy.Request(file_url, meta={'item': item})
     """
         Checking item with file_paths
     """
+
     def item_completed(self, results, item, info):
         file_paths = [x['path'] for ok, x in results if ok]
         if not file_paths:
@@ -114,6 +118,7 @@ class MoviePipeline(FilesPipeline):
     """
         Saving file with customized name and path
     """
+
     def file_path(self, request, response=None, info=None):
         """
             checking file extension, if pdf, rename it with pdf extension
@@ -143,39 +148,44 @@ class MoviePipeline(FilesPipeline):
 
 
 class JsonExportPipeline(object):
-	def __init__(self):
-		self.files = {}
 
-	@classmethod
-	def from_crawler(cls, crawler):
-		pipeline = cls()
-		crawler.signals.connect(pipeline.spider_opened, signals.spider_opened)
-		crawler.signals.connect(pipeline.spider_closed, signals.spider_closed)
-		return pipeline
+    def __init__(self):
+        self.files = {}
 
-	def spider_opened(self, spider):
-		file = open('%s_products.json' % spider.name, 'w+b')
-		self.files[spider] = file
-		self.exporter = JsonItemExporter(file)
-		self.exporter.start_exporting()
+    @classmethod
+    def from_crawler(cls, crawler):
+        pipeline = cls()
+        crawler.signals.connect(pipeline.spider_opened, signals.spider_opened)
+        crawler.signals.connect(pipeline.spider_closed, signals.spider_closed)
+        return pipeline
 
-	def spider_closed(self, spider):
-		self.exporter.finish_exporting()
-		file = self.files.pop(spider)
-		file.close()
+    def spider_opened(self, spider):
+        file = open('%s_products.json' % spider.name, 'w+b')
+        self.files[spider] = file
+        self.exporter = JsonItemExporter(file)
+        self.exporter.start_exporting()
 
-	def process_item(self, item, spider):
-		self.exporter.export_item(item)
-		return item
+    def spider_closed(self, spider):
+        self.exporter.finish_exporting()
+        file = self.files.pop(spider)
+        file.close()
+
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
 
 
 import codecs
+
+
 class FinancialspiderPipeline(object):
+
     def __init__(self):
         self.file = codecs.open('financial_file1', mode='ab', encoding='utf-8')
+
     def process_item(self, item, spider):
         content = item['html_content']
-        #self.file.write(content.decode("unicode_escape"))
+        # self.file.write(content.decode("unicode_escape"))
         self.file.write(content)
         return item
 
@@ -193,57 +203,64 @@ class FinancialspiderPipeline(object):
 
 	process_item:处理项幕
 """
+
+
 class TextExportPipeline(object):
 
-	def __init__(self):
-		self.files = {}
+    def __init__(self):
+        self.files = {}
 
-	@classmethod
-	def from_crawler(cls, crawler):
-		pipeline = cls()
-		crawler.signals.connect(pipeline.spider_opened, signals.spider_opened)
-		crawler.signals.connect(pipeline.spider_closed, signals.spider_closed)
-		return pipeline
+    @classmethod
+    def from_crawler(cls, crawler):
+        pipeline = cls()
+        crawler.signals.connect(pipeline.spider_opened, signals.spider_opened)
+        crawler.signals.connect(pipeline.spider_closed, signals.spider_closed)
+        return pipeline
 
-	def spider_opened(self, spider):
-		file = open('files/full/%s.csv' % spider.name, 'w+b')
-		self.files[spider] = file
-		self.exporter = CsvItemExporter(file, 0)
-		self.exporter.start_exporting()
+    def spider_opened(self, spider):
+        file = open('files/full/%s.csv' % spider.name, 'w+b')
+        self.files[spider] = file
+        self.exporter = CsvItemExporter(file, 0)
+        self.exporter.start_exporting()
 
-	def spider_closed(self, spider):
-		self.exporter.finish_exporting()
-		file = self.files.pop(spider)
-		file.close()
+    def spider_closed(self, spider):
+        self.exporter.finish_exporting()
+        file = self.files.pop(spider)
+        file.close()
 
-	def process_item(self, item, spider):
-		self.exporter.export_item(item)
-		return item
-
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
 
 
 """
 	编码写入文件内容
 """
-class EncodingPipeline(object):
-	def __init__(self):
-		self.files = {}
 
-	def process_item(self, item, spider):
-		content = item['file_urls']
-		file = codecs.open('files/full/%s.txt' % spider.name, mode='ab', encoding='utf-8')
-		#file.write(content.decode("unicode_escape"))
-		file.write(content)
-		return item
+
+class EncodingPipeline(object):
+
+    def __init__(self):
+        self.files = {}
+
+    def process_item(self, item, spider):
+        content = item['file_urls']
+        file = codecs.open('files/full/%s.txt' %
+                           spider.name, mode='ab', encoding='utf-8')
+        # file.write(content.decode("unicode_escape"))
+        file.write(content)
+        return item
 
 """
     oschina pipeline
 """
+
+
 class OschinaPipeline(object):
 
     def __init__(self):
         self.file = open('result.jl', 'w')
-        self.seen = set()   #  重复检测集合
+        self.seen = set()  # 重复检测集合
 
     def process_item(self, item, spider):
         if item['link'] in self.seen:
@@ -255,6 +272,8 @@ class OschinaPipeline(object):
 
 
 import pymongo
+
+
 class MongoPipeline(object):
 
     def __init__(self, mongo_host, mongo_port):
@@ -263,10 +282,11 @@ class MongoPipeline(object):
 
     @classmethod
     def from_crawler(cls, crawler):
-		return cls(
-				mongo_host=crawler.settings.get('MONGO_HOST'),
-				mongo_port=crawler.settings.get('MONGO_PORT')
-				)
+        return cls(
+            mongo_host=crawler.settings.get('MONGO_HOST'),
+            mongo_port=crawler.settings.get('MONGO_PORT')
+        )
+
     def open_spider(self, spider):
         # 打来爬虫时候，连接mongo数据库
         # 生成客户端

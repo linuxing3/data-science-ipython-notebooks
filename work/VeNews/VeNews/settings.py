@@ -77,12 +77,12 @@ ROBOTSTXT_OBEY = False
 # simplePipeline将网页或pdf文件下载
 # ImagesPipeline下载图片
 ITEM_PIPELINES = {
-   'VeNews.pipelines.MongoPipeline': 1,
-   'VeNews.pipelines.TextExportPipeline': 2,
-   'VeNews.pipelines.simplePipeline': 3,
-   #'scrapy.pipelines.files.FilesPipeline': 3,
-   #'scrapy.pipelines.images.ImagesPipeline': 2,
-   #'VeNews.pipelines.JsonExportPipeline': 1,
+    'VeNews.pipelines.MongoPipeline': 1,
+    'VeNews.pipelines.TextExportPipeline': 2,
+    'VeNews.pipelines.SimplePipeline': 3,
+    #'scrapy.pipelines.files.FilesPipeline': 3,
+    #'scrapy.pipelines.images.ImagesPipeline': 2,
+    #'VeNews.pipelines.JsonExportPipeline': 1,
 }
 
 # 文件和图片管道的配置，包括文件目录，图片大小等
