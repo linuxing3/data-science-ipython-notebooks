@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 # Define your spider here
 #
 # Don't forget to add your parse method

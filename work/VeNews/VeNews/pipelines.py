@@ -4,6 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+import subprocess
 import codecs
 import scrapy
 from scrapy.exceptions import DropItem
@@ -302,4 +303,17 @@ class MongoPipeline(object):
         collection_name = item.__class__.__name__
         # 用客户端插入项的字典
         self.db[collection_name].insert(dict(item))
+        return item
+
+
+class StreamPipeline(object):
+    """
+        Download stream media
+    """
+    def process_item(self, item, spider):
+        """
+            using subprocess to download
+        """
+        for url in item['file_urls']:
+            subprocess.call(["youtube-dl", url])
         return item

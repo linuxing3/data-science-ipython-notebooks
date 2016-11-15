@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 # Scrapy settings for VeNews project
 #
 # For simplicity, this file contains only settings considered important or
@@ -80,6 +79,7 @@ ITEM_PIPELINES = {
     'VeNews.pipelines.MongoPipeline': 1,
     'VeNews.pipelines.TextExportPipeline': 2,
     'VeNews.pipelines.SimplePipeline': 3,
+    'VeNews.pipelines.StreamPipeline':4
     #'scrapy.pipelines.files.FilesPipeline': 3,
     #'scrapy.pipelines.images.ImagesPipeline': 2,
     #'VeNews.pipelines.JsonExportPipeline': 1,

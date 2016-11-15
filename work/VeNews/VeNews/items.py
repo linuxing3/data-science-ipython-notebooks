@@ -44,3 +44,10 @@ class YppptItem(scrapy.Item):
     image_urls = scrapy.Field()
     images = scrapy.Field()
     description = scrapy.Field()
+
+
+class YoutubeItem(scrapy.Item):
+    # define the fields for your item here like:
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
+    file_paths = scrapy.Field()
