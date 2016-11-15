@@ -13,7 +13,7 @@ class LongbuluoSpider(scrapy.Spider):
 
     def parse(self, response):
         """
-            open the move page
+            open the movie page
         """
         for post in response.css('div.postlist'):
             movie_page_url = post.css('h4 > a::attr(href)').extract_first()

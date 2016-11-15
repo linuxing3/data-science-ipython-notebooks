@@ -7,6 +7,7 @@
 
 import scrapy
 
+
 class orinocoItem(scrapy.Item):
     title = scrapy.Field()
     date1 = scrapy.Field()
@@ -35,3 +36,12 @@ class OschinaItem(scrapy.Item):
     file_urls = scrapy.Field()
     files = scrapy.Field()
     file_paths = scrapy.Field()
+
+
+class YppptItem(scrapy.Item):
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
+    file_paths = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
+    description = scrapy.Field()

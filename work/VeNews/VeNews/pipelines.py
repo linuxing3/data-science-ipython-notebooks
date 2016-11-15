@@ -50,7 +50,7 @@ class MovieItemExporter(BaseItemExporter):
 """
 
 
-class OrinocoPipeline(FilesPipeline):
+class simplePipeline(FilesPipeline):
     """
         manipulating file url from the item got
         if url is ended with pdf, let it be
@@ -76,11 +76,14 @@ class OrinocoPipeline(FilesPipeline):
             checking file extension, if pdf, rename it with pdf extension
             if a webpage, rename with url and html extension
         """
+        item = request.meta['item']
         file_guid = request.url.split('/')[-1]
-        if file_guid[-3:] == 'pdf':
-            filename = u'full/orinoco-{0}'.format(file_guid)
+        if file_guid.endswith('pdf'):
+            filename = u'full/{0}.pdf'.format(item['files'])
+        if file_guid.endswith('rar'):
+            filename = u'full/{0}.rar'.format(item['files'])
         else:
-            filename = u'full/{0}.html'.format(request.url.split('/')[-2])
+            filename = u'full/{0}.html'.format(item['files'])
         return filename
 
 
@@ -117,7 +120,7 @@ class MoviePipeline(FilesPipeline):
             if a webpage, rename with url and html extension
         """
         file_guid = request.url.split('/')[-1]
-        if file_guid[-3:] == 'pdf':
+        if file_guid.endswith('pdf'):
             filename = u'full/movie-{0}'.format(file_guid)
         else:
             filename = u'full/{0}.html'.format(request.url.split('/')[-2])
@@ -254,25 +257,22 @@ class OschinaPipeline(object):
 import pymongo
 class MongoPipeline(object):
 
-    def __init__(self, mongo_host, mongo_port, mongo_db):
+    def __init__(self, mongo_host, mongo_port):
         self.mongo_host = mongo_host
         self.mongo_port = mongo_port
-        self.mongo_db = mongo_db
 
     @classmethod
     def from_crawler(cls, crawler):
 		return cls(
 				mongo_host=crawler.settings.get('MONGO_HOST'),
-				mongo_port=crawler.settings.get('MONGO_PORT'),
-				mongo_db=crawler.settings.get('MONGO_DB', 'oschinadb'),
+				mongo_port=crawler.settings.get('MONGO_PORT')
 				)
     def open_spider(self, spider):
         # 打来爬虫时候，连接mongo数据库
         # 生成客户端
         self.client = pymongo.MongoClient(self.mongo_host, self.mongo_port)
         # 连接数据库
-        # self.db = spider.name
-        self.db = self.client[self.mongo_db]
+        self.db = self.client[spider.name]
 
     def close_spider(self, spider):
         self.client.close()

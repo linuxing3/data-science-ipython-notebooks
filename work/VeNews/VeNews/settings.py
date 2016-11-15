@@ -17,9 +17,6 @@ NEWSPIDER_MODULE = 'VeNews.spiders'
 # Mongo database settings
 MONGO_HOST = '45.32.85.86'
 MONGO_PORT = 27017
-MONGO_DB = 'oschinadb'
-MONGO_DB_ORINOCO = 'orinocodb'
-MONGO_DB_LONGBULUO = 'longbuluodb'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'VeNews (+http://www.yourdomain.com)'
@@ -75,14 +72,17 @@ ROBOTSTXT_OBEY = False
 # 使用图片文件的管道，可以自动处理
 # 可以使用自定义的管道
 # 可以加载新的中间件
+# MongoPipeline将搜索结果存储到mongo 数据库
+# TextExportPipeline将结果输出到csv文件
+# simplePipeline将网页或pdf文件下载
+# ImagesPipeline下载图片
 ITEM_PIPELINES = {
-   #'scrapy.pipelines.files.FilesPipeline': 1,
+   'VeNews.pipelines.MongoPipeline': 1,
+   'VeNews.pipelines.TextExportPipeline': 2,
+   'VeNews.pipelines.simplePipeline': 3,
+   #'scrapy.pipelines.files.FilesPipeline': 3,
    #'scrapy.pipelines.images.ImagesPipeline': 2,
-   #'VeNews.pipelines.OrinocoPipeline': 1,
    #'VeNews.pipelines.JsonExportPipeline': 1,
-   'VeNews.pipelines.TextExportPipeline': 1,
-   'VeNews.pipelines.MongoPipeline': 2,
-   #'scrapyTutorial.pipelines.YppptImagePipelines': 1,
 }
 
 # 文件和图片管道的配置，包括文件目录，图片大小等
