@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+# Define your spider here
+#
+# Don't forget to add your parse method
+# See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 """ Correo del orinoco
 
 1. urls of news article:

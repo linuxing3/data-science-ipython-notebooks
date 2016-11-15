@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+
+# Define your spider here
+#
+# Don't forget to add your parse method
+# See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import scrapy
 from VeNews.items import YppptItem
 

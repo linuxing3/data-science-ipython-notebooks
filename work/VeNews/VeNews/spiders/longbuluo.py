@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+
+# Define your spider here
+#
+# Don't forget to add your parse method
+# See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import scrapy
 # from scrapy.exceptions import DropItem
 from VeNews.items import LongbuluoItem
@@ -36,4 +41,4 @@ class LongbuluoSpider(scrapy.Spider):
                 url for url in urls if url.startswith('thunder')]
             if item['file_urls']:
                 yield item
-                
+
